@@ -164,3 +164,13 @@
 .orphanage-details .orphanage-details-content button.contact-button:hover {
     background: #36CF82;
 }
+
+@media(max-width: 1024px){
+    #page-orphanage{
+        flex-direction: column;
+    }
+
+    .orphanage-details{
+        width: 90%;
+    }
+}

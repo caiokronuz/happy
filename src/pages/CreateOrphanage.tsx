@@ -37,6 +37,22 @@ export default function CreateOrphanage() {
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
+    if
+    (
+      !name || 
+      !position.latitude || 
+      !position.longitude || 
+      !about || 
+      !whatsapp || 
+      !instructions || 
+      !opening_hours || 
+      !open_on_weekends ||
+      !images
+    ){
+      alert("Preencha os campos corretamente!")
+      return;
+    }
+
     const {latitude, longitude} = position; 
 
     const data = new FormData();
