@@ -4,9 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^0.26.0",
-    "dotenv": "^8.2.0",
+    "dotenv": "^16.0.0",
     "env": "^0.0.2",
     "leaflet": "^1.7.1",
+    "pretty-format": "^27.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.11.0",
@@ -37,7 +38,6 @@
     ]
   },
   "devDependencies": {
-    "typecript": "^0.0.1-security",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -47,6 +47,7 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "@types/react-leaflet": "^2.5.2",
-    "@types/react-router-dom": "^5.1.6"
+    "@types/react-router-dom": "^5.1.6",
+    "typecript": "^0.0.1-security"
   }
 }

@@ -173,4 +173,31 @@
     .orphanage-details{
         width: 90%;
     }
+
+    .orphanage-details .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 16px;
+        margin: 16px 40px 0;
+    }
+
+    .orphanage-details .images button {
+        width: 100px;
+    }
+
+    .orphanage-details .orphanage-details-content {
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .orphanage-details .orphanage-details-content h1{
+        margin-top: 1em;
+    }
+
+    .orphanage-details .orphanage-details-content .map-container {
+        width: 100%;
+    }
 }
